@@ -2,18 +2,20 @@
   <v-container>
     <v-row align="center" no-gutters>
       <v-col>
-
       </v-col>
       <v-col md="0" alignSelf="center">
         <v-card
           width="600px"
           height="500px"
         >
-
+        <v-card-title>
+          <v-icon>
+            mdi-ab-testing
+          </v-icon>
+        </v-card-title>
         </v-card>
       </v-col>
       <v-col>
-
       </v-col>
     </v-row>
   </v-container>
