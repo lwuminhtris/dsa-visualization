@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-row align="center" no-gutters>
+    <v-row align="center" no-gutters style="padding-top: 80px;">
       <v-col>
       </v-col>
       <v-col md="0" alignSelf="center">
@@ -9,10 +9,26 @@
           height="500px"
         >
         <v-card-title>
-          <v-icon>
-            mdi-ab-testing
-          </v-icon>
+          <img src="../assets/gaia.png" style = "height: 20px;" />
+          <v-spacer>
+
+          </v-spacer>
+          Data Structure Visualization
         </v-card-title>
+        <v-tabs>
+          <v-tab>
+            Binary Search Tree
+          </v-tab>
+          <v-tab>
+            AVL Tree
+          </v-tab>
+          <v-tab>
+            Heap
+          </v-tab>
+          <v-tab>
+            Hash
+          </v-tab>
+        </v-tabs>
         </v-card>
       </v-col>
       <v-col>
